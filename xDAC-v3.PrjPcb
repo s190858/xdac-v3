@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -356,7 +356,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DVZFDEGV
 
 [Document19]
-DocumentPath=xDAC_Carrier.PcbDoc
+DocumentPath=xDAC_Carrier-V3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -373,23 +373,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GSNJIVKN
 
 [Document20]
-DocumentPath=..\..\xDACv3_zip\xDAC_Carrier.step
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document21]
 DocumentPath=xDAC-v3.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document21]
 DocumentPath=Pilot.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GEWUETUP
 
-[Document23]
+[Document22]
 DocumentPath=Pilot.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GOHTNGRR
 
-[Document24]
+[Document23]
 DocumentPath=xDAC_v3_Carrier.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=xDAC_Carrier1\test.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=xDAC_Carrier1\xDAC_Carrier.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,8 +474,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=xDAC_Carrier1\xDAC_Carrier.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SBOYYCVM
+
+[Document27]
+DocumentPath=xDAC_Carrier.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -509,7 +509,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document28]
-DocumentPath=xDAC_Carrier.IntLib
+DocumentPath=Complete.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -524,6 +524,319 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document29]
+DocumentPath=xDAC_V3.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KLQVUGEW
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\ADC-DAC.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\ADC-DAC.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 BOM\BOM-xDAC_v3_Carrier.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\ChipSelects+Faults.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\ChipSelects+Faults.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\Complete.OutJob
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for xDAC-v3\Design Rule Check - xDAC_Carrier-V3.html
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for xDAC-v3\Design Rule Check - xDAC_Carrier.html
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\Fan & Power Out.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\Fan & Power Out.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\iDAC1.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\iDAC1.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\iDAC2.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\iDAC2.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\LIM+LEDS+POWER.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\LIM+LEDS+POWER.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\PD.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\PD.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\PI_INTERFACE.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\PI_INTERFACE.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\PIC closed loop.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\PIC closed loop.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Pick and place files\Pick Place for xDAC_Carrier-V3.csv
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Pick and place files\Pick Place for xDAC_Carrier-V3.txt
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\Pilot.PcbLib
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\Pilot.SchLib
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\PIO.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\PIO.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\Power.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\Power.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\RX_FlexiConnectors.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\RX_FlexiConnectors.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\TEC_CONTROLLER_1.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\TEC_CONTROLLER_1.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\TEC_CONTROLLER_2.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\TEC_CONTROLLER_2.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\TEC_CONTROLLER_3.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\TEC_CONTROLLER_3.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_Carrier1\test.pcblib
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\TX_FlexiConnectors.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\TX_FlexiConnectors.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\vDAC1.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\vDAC1.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export Schematic\vDAC2.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\vDAC2.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 WireList Netlist\xDAC-v3.NET
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC-v3.OutJob
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=xDAC_Carrier 06-03-2026 12-12-29.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=xDAC_Carrier 06-03-2026 15-01-44.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 NC Drill Files\xDAC_Carrier-V3-RoundHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 NC Drill Files\xDAC_Carrier-V3-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 NC Drill Files\xDAC_Carrier-V3-SlotHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 NC Drill Files\xDAC_Carrier-V3.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 NC Drill Files\xDAC_Carrier-V3.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 NC Drill Files\xDAC_Carrier-V3.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 ASCII Export PCB\xDAC_Carrier-V3.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_Carrier-V3.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3.REP
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Copper_Plane_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 Gerber Files\xDAC_Carrier-V3_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_Carrier.IntLib
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_Carrier1\xDAC_Carrier.PcbLib
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_Carrier1\xDAC_Carrier.SCHLIB
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_V3.PCBDwf
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for xDAC-v3\xDAC-v3\xDAC-v3 CAD Source Files\xDAC_v3_Carrier.BomDoc
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -1236,6 +1549,16 @@ Type158=1
 Type159=1
 Type160=1
 Type161=1
+Type162=1
+Type163=1
+Type164=1
+Type165=1
+Type166=1
+Type167=1
+Type168=1
+Type169=1
+Type170=1
+Type171=1
 
 [Difference Levels]
 Type1=1
@@ -1326,6 +1649,13 @@ Type85=1
 Type86=1
 Type87=1
 Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1539,12 +1869,18 @@ SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Pilot.SchLib
-ComponentDesignItemID0=ERJ-U03F3002V
-ComponentSymbolReference0=ERJ-U03F3002V
+ComponentLibIdentifierKind0=Any
+ComponentLibraryIdentifier0=
+ComponentDesignItemID0=ERJ-3EKF1002V
+ComponentSymbolReference0=ERJ-3EKF1002V
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Pilot.SchLib
+ComponentDesignItemID1=ERJ-3EKF1002V
+ComponentSymbolReference1=ERJ-3EKF1002V
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1582,12 +1918,10 @@ ParameterName10=Mouser Part Number
 ParameterUpdate10=1
 ParameterName11=Mouser Price/Stock
 ParameterUpdate11=1
-ParameterName12=Resistance
-ParameterUpdate12=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=ERJS03J155V
+ModelName0=RESC1608X55N
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]

@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Complete.OutJob
 Description=
-TargetOutputMedium=Folder Structure
-VariantName=ES-175
+TargetOutputMedium=PDF
+VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -36,7 +36,7 @@ OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=Verdin Development Board V1.1A.001
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=2
 OutputEnabled1_OutputMedium3=0
@@ -76,10 +76,10 @@ OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
-OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium3=3
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AddLayersToGroup.Group_0=1|AddLayersToGroup.Group_1=2|AddLayersToGroup.Group_2=3|AddLayersToGroup.Group_3=4|AddLayersToGroup.Group_4=5|AddLayersToGroup.Group_5=0|AddLayersToGroup.Group_6=7|AddLayersToGroup.Group_7=8|AddLayersToGroup.Set_0=16908289|AddLayersToGroup.Set_1=16908289|AddLayersToGroup.Set_2=16908289|AddLayersToGroup.Set_3=16908289|AddLayersToGroup.Set_4=16908289|AddLayersToGroup.Set_5=16908289|AddLayersToGroup.Set_6=16908289|AddLayersToGroup.Set_7=16908289|AddLayersToGroups.Count=8|AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|BoardID=RJHOKYIJ|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Single|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1,16842754~1,16842753~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Repos\RTR\Teka_AFE\Teka_AFE\Teka_AFE.PcbDoc
+Configuration3_Item1=AddLayersToGroup.Group_0=1|AddLayersToGroup.Group_1=2|AddLayersToGroup.Group_2=3|AddLayersToGroup.Group_3=4|AddLayersToGroup.Group_4=5|AddLayersToGroup.Group_5=0|AddLayersToGroup.Group_6=7|AddLayersToGroup.Group_7=8|AddLayersToGroup.Set_0=16908289,16908299|AddLayersToGroup.Set_1=16908289,16908299|AddLayersToGroup.Set_2=16908289,16908299|AddLayersToGroup.Set_3=16908289,16908299|AddLayersToGroup.Set_4=16908289,16908299|AddLayersToGroup.Set_5=16908289,16908299|AddLayersToGroup.Set_6=16908289,16908299|AddLayersToGroup.Set_7=16908289,16908299|AddLayersToGroups.Count=8|AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1,16908299~1|BoardID=GSNJIVKN|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Single|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16842753~1,16777218~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Repos\RTR\Pilot\xDAC-v3\xDAC_Carrier.PcbDoc
 OutputType4=NC Drill
 OutputName4=NC Drill Files
 OutputCategory4=Fabrication
@@ -88,7 +88,7 @@ OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium3=2
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\James10\repos\Nortev\es-175\ES-175\ES-175.PcbDoc
@@ -100,7 +100,7 @@ OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium3=4
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=False|Filter= |FilterActive=False|YFlip=True|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:15|Column#17=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#18=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#19=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#20=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#21=Name:Datasheet Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#22=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#23=Name:Arrow Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#24=Name:Mouser Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#25=Name:Mouser Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#26=Name:Arrow Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|DocumentPath=C:\Users\James10\repos\Nortev\es-175\ES-175\ES-175.PcbDoc
@@ -186,7 +186,7 @@ OutputName8=Fab Drawing
 OutputCategory8=Documentation
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=3
 OutputEnabled8_OutputMedium3=0
@@ -200,7 +200,7 @@ OutputVariantName9=
 OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
-OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium3=7
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=DocumentPath=[Project]|Format=Advanced Schematic ascii (*.SchDoc)|Record=UniExporterView
@@ -212,7 +212,7 @@ OutputVariantName10=
 OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
-OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium3=6
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=DocumentPath=C:\Users\James\source\repos\GridBeyond\touchpoint2\TouchPoint2\Project Outputs for TouchPoint2\Generate Files\Universal Exporter\TouchPoint2.PcbDoc|Format=PCB ASCII File (*.PcbDoc)|Record=UniExporterView
@@ -268,15 +268,27 @@ OutputVariantName13=
 OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
-OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium3=8
 OutputDefault13=0
 Configuration13_Name1=OutputConfigurationParameter1
 Configuration13_Item1=Count=1|File0=[Project]\*.*|PreserveFolderStructure0=True|Record=NonNativeFiles|DocumentPath=[Project]
+OutputType14=WireListNetlist
+OutputName14=WireList Netlist
+OutputCategory14=Netlist
+OutputDocumentPath14=
+OutputVariantName14=
+OutputEnabled14=0
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=0
+OutputEnabled14_OutputMedium3=5
+OutputDefault14=0
+Configuration14_Name1=OutputConfigurationParameter1
+Configuration14_Item1=lumn#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:15|Column#17=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#18=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#19=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#20=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#21=Name:Datasheet Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#22=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#23=Name:Arrow Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#24=Name:Mouser Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#25=Name:Mouser Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#26=Name:Arrow Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|DocumentPath=C:\Users\James10\repos\Nortev\es-175\ES-175\ES-175.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=C:\Repos\Nortev\FlexinebE3\ES-175\Project Outputs for ES-175_Rev05\ES-175_Rev05\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs
+OutputBasePath2=Project Outputs for xDAC-v3
 OutputPathMedia2==ProjectName
 OutputPathMediaValue2==ProjectName
 OutputPathOutputer2=[Output Custom]
@@ -301,9 +313,9 @@ ShowComponentParameters2=0
 GlobalBookmarks2=1
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Repos\RTR\Teka_AFE\Teka_AFE\Project Outputs\Teka_AFE\
+OutputFilePath3=C:\Repos\RTR\Pilot\xDAC-v3\Project Outputs for xDAC-v3\xDAC-v3
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs
+OutputBasePath3=Project Outputs for xDAC-v3
 OutputPathMedia3==ProjectName
 OutputPathMediaValue3==ProjectName
 OutputPathOutputer3=[Output Custom]
@@ -318,7 +330,7 @@ OpenOutput3=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Repos\Nortev\FlexinebE3\ES-175\Project Outputs for ES-175_Rev05\ES-175_Rev05\
 OpenOutputs2=1
-RelativeOutputPath3=C:\Repos\RTR\Teka_AFE\Teka_AFE\Project Outputs\Teka_AFE\
+RelativeOutputPath3=C:\Repos\RTR\Pilot\xDAC-v3\Project Outputs for xDAC-v3\xDAC-v3
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
